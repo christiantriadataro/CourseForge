@@ -199,7 +199,7 @@ export default {
     },
     {
       name: 'pages',
-      displayName: 'menu.sections',
+      displayName: 'menu.section',
       meta: {
         icon: 'vuestic-iconset-files',
       },
