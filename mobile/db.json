@@ -1,0 +1,55 @@
+[
+  {
+  "email": "",
+  "password": "",
+  "first_name": "",
+  "last_name": "",
+  "gender": "",
+  "student_number": "",
+  "year_n_sec": "",
+  "birth_date": "",
+  "nationality": "",
+  "contact_number": "",
+  "address": ""
+},
+  {
+    "email": "",
+    "password": "",
+    "first_name": "",
+    "last_name": "",
+    "gender": "",
+    "student_number": "",
+    "year_n_sec": "",
+    "birth_date": "",
+    "nationality": "",
+    "contact_number": "",
+    "address": ""
+  },
+  {
+    "email": "",
+    "password": "",
+    "first_name": "",
+    "last_name": "",
+    "gender": "",
+    "student_number": "",
+    "year_n_sec": "",
+    "birth_date": "",
+    "nationality": "",
+    "contact_number": "",
+    "address": ""
+  },
+  {
+    "email": "",
+    "password": "",
+    "first_name": "",
+    "last_name": "",
+    "gender": "",
+    "student_number": "",
+    "year_n_sec": "",
+    "birth_date": "",
+    "nationality": "",
+    "contact_number": "",
+    "address": ""
+  }
+
+]
