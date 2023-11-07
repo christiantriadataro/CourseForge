@@ -5,6 +5,7 @@ import Menu from "../screens/student/Menu";
 import Profile from "../screens/student/Profile";
 import Courses from "../screens/student/Courses";
 import Course from "../screens/student/Course";
+import Examination from "../screens/student/Examination";
 const Stack = createStackNavigator();
 const DrawerNavigation = () => {
   return (
@@ -21,6 +22,7 @@ const DrawerNavigation = () => {
       <Stack.Screen name="Profile" component={Profile}/>
       <Stack.Screen name="Courses" component={Courses}/>
       <Stack.Screen name="Course" component={Course}/>
+      <Stack.Screen name="Examination" component={Examination}/>
     </Stack.Navigator>
   );
 };

@@ -57,8 +57,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   subtitle: {
-    fontFamily: 'Nunito_Regular',
-    fontSize: 11,
+    fontFamily: 'Nunito_Bold',
+    fontSize: 12,
+    textTransform: 'capitalize'
+
   },
   body_text1: {
     fontFamily: 'Advent_Pro_Bold',

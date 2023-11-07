@@ -28,6 +28,7 @@ import Notif from '../../../assets/images/icon/notif.png';
 import CourseCard from '../../components/CourseCard';
 import AppBar from '../../components/AppBar';
 import CourseMiniCard from '../../components/CourseMiniCard';
+import findKey from "lodash/findKey";
 
 const MENU = [
   { course_id: 'Course 01', course_name: 'PL 101', course_img: require('../../../assets/images/courses/course_cards/courses_1.png') },
@@ -42,6 +43,7 @@ const MENU = [
 ];
 
 const Courses = ({ navigation, route }) => {
+  const course_title = findKey(MENU, value => value === MENU.engine)
   return (
     <ScrollView style={{ height: '100%', backgroundColor: '#EEE' }}>
       <View>
@@ -74,8 +76,9 @@ const Courses = ({ navigation, route }) => {
             </View>
             <Text style={styles.body_text2}>9 Courses</Text>
           </View>
-          <CourseMiniCard navigation={navigation} route={route} course_id={MENU[0].course_id} course_name={MENU[0].course_name} course_img={MENU[0].course_img} />
-          <FlatList scrollEnabled={false} data={MENU} renderItem={({item}) => <CourseMiniCard navigation={navigation} route={route} course_id={item.course_id} course_name={item.course_name} course_img={item.course_img}/>} />
+          {/*<FlatList scrollEnabled={false} data={MENU.engine} renderItem={({item}) =>  <CourseCard course_id={item.title} course_name={course_title}/>} />*/}
+
+          <FlatList scrollEnabled={false} data={MENU.engine} renderItem={({item}) => <CourseMiniCard navigation={navigation} route={route} course_id={item.title} course_name={course_title} course_img={item.course_img}/>} />
         </View>
       </View>
     </ScrollView>

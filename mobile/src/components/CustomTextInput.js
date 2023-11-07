@@ -3,7 +3,11 @@ import { TextInput, StyleSheet } from "react-native";
 
 const CustomTextInput = (props) => {
   return (
-    <TextInput style={styles.email} {...props} placeholderTextColor="#EEEEEE"/>
+    <TextInput
+      style={styles.email}
+      {...props}
+      placeholderTextColor="#EEEEEE"
+    />
   )
 }
 

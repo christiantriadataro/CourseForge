@@ -28,20 +28,16 @@ import Notif from '../../../assets/images/icon/notif.png';
 import CourseCard from "../../components/CourseCard";
 import AppBar from "../../components/AppBar";
 
+import findKey from 'lodash/findKey'
+import MENU from '../../../db_menu.json'
 
-const MENU = [
-  {course_id: 'Course 01', course_name: 'PL 101'},
-  {course_id: 'Course 02', course_name: 'PL 102'},
-  {course_id: 'Course 03', course_name: 'PL 103'},
-  {course_id: 'Course 04', course_name: 'PL 104'},
-  {course_id: 'Course 05', course_name: 'PL 105'},
-]
 
-const Dashboard = ({navigation, route}) => {
+const Dashboard = (props) => {
+  const course_title = findKey(MENU, value => value === MENU.engine)
   return (
     <ScrollView style={{ height: '100%', backgroundColor: '#EEE'}}>
       <View>
-        <AppBar navigation={navigation} route={route} />
+        <AppBar navigation={props.navigation} route={props.route} />
         <View style={{ alignItems: 'center', paddingVertical: 15, gap: 15 }}>
           {/* Card 1*/}
           <TouchableOpacity>
@@ -94,11 +90,8 @@ const Dashboard = ({navigation, route}) => {
         >
           My Courses
         </Text>
-        {/*// <View style={[{ alignItems: 'center' }, {}]}>*/}
-
-        {/*</View>*/}
         <View style={{ alignItems: 'center' ,marginBottom: 40}}>
-          <FlatList scrollEnabled={false} data={MENU} renderItem={({item}) =>  <CourseCard course_id={item.course_id} course_name={item.course_name}/>} />
+          <FlatList scrollEnabled={false} data={MENU.engine} renderItem={({item}) =>  <CourseCard course_id={item.title} course_name={course_title}/>} />
         </View>
       </View>
     </ScrollView>

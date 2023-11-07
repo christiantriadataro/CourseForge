@@ -1,0 +1,72 @@
+[
+  {
+  "email": "andreidomingo@gmail.com",
+  "password": "123",
+  "first_name": "Andrei",
+  "last_name": "Domingo",
+  "role": "Student",
+  "gender": "Male",
+  "student_number": "19-08031-t",
+  "section": "1T2023",
+  "birth_date": "04-21-2001",
+  "nationality": "Filipino",
+  "contact_number": "0978910123",
+  "address": "P. Paredes St. Sampaloc, Manila"
+},
+  {
+    "email": "marcdanielbajo@gmail.com",
+    "password": "123",
+    "first_name": "Marc Daniel",
+    "last_name": "Bajo",
+    "role": "Student",
+    "gender": "Male",
+    "student_number": "19-02031-t",
+    "section": "1T2023",
+    "birth_date": "04-21-2022",
+    "nationality": "Filipino",
+    "contact_number": "099999999",
+    "address": "867 G. Tolentino St. Sampaloc, Manila"
+  },
+  {
+    "email": "cailesantiago@gmail.com",
+    "password": "123",
+    "first_name": "Caile",
+    "last_name": "Santiago",
+    "role": "Student",
+    "gender": "Female",
+    "student_number": "19-23031-t",
+    "section": "1T2023",
+    "birth_date": "12-12-2000",
+    "nationality": "Filipino",
+    "contact_number": "0977777777",
+    "address": "899 Masinop St. Pasig"
+  },
+  {
+    "email": "mackymarcos@gmail.com",
+    "password": "123",
+    "first_name": "Macky",
+    "last_name": "Marcos",
+    "role": "Student",
+    "gender": "Female",
+    "student_number": "19-11031-t",
+    "section": "1T2023",
+    "birth_date": "07-23-2000",
+    "nationality": "Filipino",
+    "contact_number": "096666666",
+    "address": "867 G. Tolentino St. Sampaloc, Manila"
+  },
+  {
+    "email": "christinepangilinan@gmail.com",
+    "password": "123",
+    "first_name": "Christine",
+    "last_name": "Pangilinan",
+    "role": "Instructor",
+    "gender": "Female",
+    "student_number": "15-01031-P",
+    "section": "1T2023",
+    "birth_date": "07-23-2000",
+    "nationality": "Filipino",
+    "contact_number": "096666666",
+    "address": "867 G. Tolentino St. Sampaloc, Manila"
+  }
+]

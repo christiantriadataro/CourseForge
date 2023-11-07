@@ -1,0 +1,205 @@
+{
+  "engine": [
+    {
+      "title": "BASIC PROGRAM FOR WELDING OPERATION",
+      "description": "This course is designed to enhance or broaden the knowledge and skill of engine personnel, particularly engineers in common welding practices available on board.\n\nParticipants in this course will undergo hands-on training that enhances their knowledge and skill in welding operation and how to assess the quality of weld in accordance with industry standards.  It covers competency such as Weld Carbon steel Plates using various welding processes such as Shielded Metal Arc Welding (SMAW), Oxygen-acetylene Welding (OAW), Tungsten Inert Gas (TIG), and Metal Inert Gas (MIG) welding processes, which they can actually perform for them to experience the real pace of operation.  The kinds of electrodes, properties of metal to be welded, heat treatment, hard facing and rebuilding of metals will be taken in Basic Welding Metallurgy. The use and characteristics of different kinds of electrodes are also discussed in the course.  The application safety practices, use of hand tools, prepare weld materials, setup welding equipment, fit-up weld materials, repair welds, brazing and oxyacetylene cutting are also included.\t\nThe modules enumerated below shall be given appropriate time allocation both for theoretical preparation and for practical application of the competencies.",
+      "duration": "2 days",
+      "outline": [
+        {
+          "INTRODUCTION TO WELDING TECHNOLOGY": [
+            "Development of Welding Technology",
+            "Fundamentals of Welding",
+            "Equipments in Welding",
+            "Welding Variables"
+          ]
+        },
+        {
+          "SAFETY IN GAS AND ELECTRIC WELDING": [
+            "Common Hazards in Electric and Gas Welding or Cutting",
+            "Protective equipment used in Welding and Cutting",
+            "Safe Handling and Storing of Gas Cylinders"
+          ]
+        },
+        {
+          "READING WELDING SYMBOLS": [
+            "Basic Welding Joints",
+            "Parts of completed Weld",
+            "Welding Preparation",
+            "Welding Symbols"
+          ]
+        },
+        {
+          "READING WELDING SYMBOLS": [
+            "Basic Welding Joints",
+            "Parts of completed Weld",
+            "Welding Preparation",
+            "Welding Symbols"
+          ]
+        },
+        {
+          "BASIC METALLURGY": [
+            "Identification and properties of Metal",
+            "Major Fields of Metal",
+            "Alloying Metals",
+            "Residual Stresses",
+            "Heat Treatment, Hard Facing and Rebuilding of Metal"
+          ]
+        },
+        {
+          "WELDING ELECTRODES": [
+            "Electrodes",
+            "Electrodes for Common Welding Processes",
+            "Classification of Covered Electrode",
+            "Characteristics of Welding Electrode"
+          ]
+        },
+        {
+          "SHIELDED METAL ARC WELDING PROCESS": [
+            "Principle of SMAW",
+            "Welding Equipment and Accessories",
+            "Fundamental of Power Supply",
+            "SMAW Welding Technique",
+            "Actual SMAW Welding Operation"
+          ]
+        },
+        {
+          "GAS TUNGSTEN ARC WELDING (GTAW/TIG)": [
+            "Principle of GTAW",
+            "Benefits of GTAW or TIG Welding",
+            "GTAW / TIG Welding Limitations",
+            "GTAW Equipment and Accessories",
+            "Gas Tungsten Arc Welding Techniques",
+            "Actual TIG Welding Operation"
+          ]
+        },
+        {
+          "GAS METAL ARC WELDING (GMAW/MIG)": [
+            "GMAW Welding Process",
+            "GMAW Equipment and Accessories",
+            "GMAW Welding Technique",
+            "Actual MIG Welding Operation"
+          ]
+        },
+        {
+          "OXYACETYLENE WELDING AND CUTTING OPERATION": [
+            "Oxygen Acetylene Welding and Cutting",
+            "Oxyacetylene Welding and Cutting Outfit",
+            "Welding and Cutting Flames",
+            "Oxyacetylene Welding Technique",
+            "Braze Welding",
+            "Actual Welding, Cutting and Brazing Operation"
+          ]
+        },
+        {
+          "ASSESSING QUALITY WORKS IN WELDING": [
+            "Quality Weld",
+            "Common Weld Defects (Cause and Remedies)",
+            "The effect of current, arc length and travel speed on covered electrode beads",
+            "Weld inspection"
+          ]
+        }
+      ]
+    }
+  ],
+  "deck": [
+    {
+      "title": "BASIC RIGGING AND SLINGING",
+      "description": "The course will give informative practices on basic rigging and slinging operation, such as, the Principle Rigging and the common terminologies commonly encountered in rigging, Safe Working System for Rigging and Lifting, Types of Ropes, Sling and Lifting Equipment, Rigging and Slinging Risk Assessment, Communication used in rigging and the Operation of Crane and its Maintenance. \n\nFor as much as detailed description of what is to be taken for the entire days of training, the modules will be discussed and tackled as followed:",
+      "duration": "2 days",
+      "outline": [
+        {
+          "RIGGING PRINCIPLE AND TERMINOLOGY": [
+            "Parallelogram of Forces"
+          ]
+        },
+        {
+          "SAFE WORKING SYSTEM FOR RIGGING AND LIFTING": [
+            "Safe Working Loads",
+            "Breaking Stress of Ropes and Sling",
+            "Checking and Inspection of Slings",
+            "Proper Handling and Lifting",
+            "Safe Positioning of Personnel when Lifting"
+          ]
+        },
+        {
+          "TYPES OF ROPES, SLINGS AND LIFTING EQUIPMENT": [
+            "Care of Ropes and Sling",
+            "Maintenance and Securing of Equipment",
+            "Rope and Wire Splicing",
+            "Short splice, long splice and eye splice.",
+            "Tools used in splicing: clamps. cutters, spikes, vise, bench, etc."
+          ]
+        },
+        {
+          "RIGGING AND SLINGING RISK ASSESSMENT": [
+            "Hazard and Potential Danger (Control Option)",
+            "Risk (Likelihood and Consequence)",
+            "Safety Culture at Work (Accident Prevention).",
+            "Slips and Falls (Common Fatal on Board)."
+          ]
+        },
+        {
+          "COMMUNICATIONS": [
+            "Hand Signal",
+            "Radio Communication"
+          ]
+        },
+        {
+          "CRANE OPERATION AND MAINTENANCE": [
+            "Things Needed to be Inspected",
+            "Checking Prior Operation"
+          ]
+        },
+        {
+          "SHIELDED METAL ARC WELDING PROCESS": [
+            "Principle of SMAW",
+            "Welding Equipment and Accessories",
+            "Fundamental of Power Supply",
+            "SMAW Welding Technique",
+            "Actual SMAW Welding Operation"
+          ]
+        },
+        {
+          "GAS TUNGSTEN ARC WELDING (GTAW/TIG)": [
+            "Principle of GTAW",
+            "Benefits of GTAW or TIG Welding",
+            "GTAW / TIG Welding Limitations",
+            "GTAW Equipment and Accessories",
+            "Gas Tungsten Arc Welding Techniques",
+            "Actual TIG Welding Operation"
+          ]
+        },
+        {
+          "GAS METAL ARC WELDING (GMAW/MIG)": [
+            "GMAW Welding Process",
+            "GMAW Equipment and Accessories",
+            "GMAW Welding Technique",
+            "Actual MIG Welding Operation"
+          ]
+        },
+        {
+          "OXYACETYLENE WELDING AND CUTTING OPERATION": [
+            "Oxygen Acetylene Welding and Cutting",
+            "Oxyacetylene Welding and Cutting Outfit",
+            "Welding and Cutting Flames",
+            "Oxyacetylene Welding Technique",
+            "Braze Welding",
+            "Actual Welding, Cutting and Brazing Operation"
+          ]
+        },
+        {
+          "ASSESSING QUALITY WORKS IN WELDING": [
+            "Quality Weld",
+            "Common Weld Defects (Cause and Remedies)",
+            "The effect of current, arc length and travel speed on covered electrode beads",
+            "Weld inspection"
+          ]
+        }
+      ]
+    }
+  ],
+  "steward": [
+  ],
+  "cuisine": [
+  ]
+}

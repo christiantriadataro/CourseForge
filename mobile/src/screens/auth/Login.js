@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -14,12 +14,29 @@ import { useFonts } from 'expo-font';
 import CustomTextInput from '../../components/CustomTextInput'
 import CustomButton from "../../components/CustomButton";
 
+import DB_student from "../../../db_student.json"
 
 const Login = ({navigation}) => {
-  // const [email, setEmail] = useState("")
-  // const [state, setState] = useState(initState);
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const onChangeEmail = (email) => { setEmail(email) }
+  const onChangePassword = (password) => { setPassword(password)}
+
+
   const handleLogin = () => {
-    navigation.navigate('DrawerNavigation')
+    for (const obj of DB_student) {
+      if (email === '' || password === '') {alert("Wrong Email. Please try again")}
+      if(email === obj['email']) {
+        if (password === obj['password'] ) {
+
+          navigation.navigate('DrawerNavigation')
+        } else  {
+          alert("Wrong Password. Please try again.")
+
+        }
+      }
+    }
+    // navigation.navigate('DrawerNavigation')
   }
 
   return (
@@ -30,13 +47,14 @@ const Login = ({navigation}) => {
       >
         <View style={styles.container}>
           <Text style={styles.LoginHeader}>Login</Text>
-          <CustomTextInput  inputMode="email" placeholder="Email"/>
-          <CustomTextInput  secureTextEntry={true} placeholder="Password" />
+          <CustomTextInput  inputMode="email" placeholder="Email" onChangeText={onChangeEmail} />
+          <CustomTextInput  secureTextEntry={true} placeholder="Password" onChangeText={onChangePassword} />
           <View style={{ flexDirection: 'row', gap: 40}}>
             <Text style={styles.body_text}>Forgot Password?</Text>
             <CustomButton name="Login"
-                          onPress={handleLogin }
+                          onPress={handleLogin}
              />
+
           </View>
         </View>
       </ImageBackground>

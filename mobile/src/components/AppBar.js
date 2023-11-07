@@ -5,7 +5,7 @@ import Todos from "../../assets/images/icon/clipboard.png";
 import ChatBox from "../../assets/images/icon/chatbox.png";
 import Notif from "../../assets/images/icon/notif.png";
 
-const AppBar = ({navigation, route}) => {
+const AppBar = (props) => {
   return (
     <View
 
@@ -21,12 +21,12 @@ const AppBar = ({navigation, route}) => {
       }}
     >
       <View style={{ flexDirection: 'row', gap: 18 }}>
-        <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
+        <TouchableOpacity onPress={() => props.navigation.navigate('Menu')}>
           <Image source={AccountLogo} style={{ height: 38, width: 38 }} />
         </TouchableOpacity>
         <View style={{ justifyContent: 'center' }}>
-          {(route.name === 'Dashboard' || route.name === 'Course') ?  <><Text style={[styles.title, {textTransform: 'capitalize'}]}>Andrei</Text>
-            <Text style={styles.subtitle}>19-02031-t</Text></> : <Text style={styles.title}>| { route.name}</Text> }
+          {(props.route.name === 'Dashboard' || props.route.name === 'Course') ?  <><Text style={[styles.title, {textTransform: 'capitalize'}]}>Andrei</Text>
+            <Text style={styles.subtitle}>19-02031-t</Text></> : <Text style={styles.title}>| { props.route.name}</Text> }
         </View>
       </View>
       <View style={{ flexDirection: 'row', gap: 26, paddingRight: 15 }}>

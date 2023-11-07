@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from "react-native";
 import { Feather } from '@expo/vector-icons';
 
-const Tab = (props, {navigation}) => {
+const Tab = (props) => {
   return (
     <TouchableOpacity
       style={{
@@ -13,9 +13,9 @@ const Tab = (props, {navigation}) => {
         gap: 25,
         paddingHorizontal: 41,
       }}
-      onPress={() => navigation.navigate(props.link)}
+      onPress={() => props.navigation.navigate(props.title)}
     >
-      <Feather size={24} color="black" {...props} />
+      <Feather size={24} color="black" name={props.name}/>
       <Text style={{ fontSize: 15, fontFamily: 'Andika_Regular' }}>{props.title}</Text>
     </TouchableOpacity>
   );
